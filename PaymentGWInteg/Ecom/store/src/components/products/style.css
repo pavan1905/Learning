@@ -1,0 +1,10 @@
+.ProdContainer{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.product{
+    border: 1px dashed orange;
+    padding: 20px;
+    margin: 50px;
+}
