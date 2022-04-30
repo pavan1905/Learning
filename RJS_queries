@@ -1,0 +1,89 @@
+https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions
+
+Features of React?
+
+Can web browsers read JSX directly? 
+
+Why use React instead of other frameworks, like Angular?
+
+What is the difference between the ES6 and ES5 standards?
+
+What is an arrow function and how is it used in React?
+
+What are the components in React?
+
+What are the differences between state and props?
+
+What is a higher-order component in React?
+
+What are the differences between class and functional components?
+
+Explain the lifecycle methods of components.
+
+Why is there a need for using keys in Lists?
+
+What is Redux?
+
+https://www.edureka.co/blog/interview-questions/react-interview-questions/
+
+What are the three principles that Redux follows?
+
+What do you understand by “Single source of truth”?
+
+How is Redux different from Flux?
+
+Why do we need to React Router?
+
+How is React routing different from conventional routing?
+
+How do you style React components?
+
+https://www.fullstack.cafe/blog/react-js-interview-questions
+
+What is the purpose of using super constructor with props argument in React?
+
+how do you perform an action after useState and setState hook has triggered?
+
+Pls share your screen and
+	can you identify two problems?
+
+How can I make use of Error Boundaries in functional React components?
+
+What are the different phases of ReactJS component lifecycle?
+
+What do these three dots (...) in React do?
+
+What is prop drilling and how can you avoid it?
+
+What is StrictMode in React?
+
+What's wrong with that code?  (share screenpls)
+
+Explain why and when would you use useMemo()?
+
+How would you go about investigating slow React application rendering?
+
+When would you use StrictMode component in React?
+
+How do I update state on a nested object with useState()?
+
+How to apply validation on props in ReactJS?
+
+When is it important to pass props to super(), and why?
+
+When to use useState vs useReducer?
+
+https://intellipaat.com/blog/interview-question/react-interview-questions/#12
+
+What is React Fiber?
+
+How to avoid the need for binding in React?
+		In ReactJs, when we're working with class-based components and want to access this inside a class method.
+		This will need to bind it. Binding this allows it to access the state and setstate inside the class.
+		To avoid the need for binding we have something introduced in ES6 as arrow functions.
+		Using the arrow function to call this.setState will lead to avoid the use of bind.
+		When we use the arrow function it works because of the of following reasons:
+			It does not re-scope this, so we don’t need to bind this in the class constructor.
+			JavaScript has first-class functions, which means functions are considered as data.
+			Therefore, arrow functions can be assigned to class properties.
+
